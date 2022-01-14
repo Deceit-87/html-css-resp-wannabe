@@ -71,3 +71,35 @@ img {
 .clear {
   clear: both;
 }
+
+
+
+ /* MEDIAQUERY 420 */
+
+
+ @media  screen and (max-width:420px) {
+
+  .row{
+    margin-top: 0px;
+    padding-top:15px;
+  }
+  #lezioni  .row{
+    background-color: #F2F2CD;
+    
+  }
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+      float: none;
+      margin: 0 auto;
+     
+    }
+  
+   .row h1 {
+     margin-top: 0;
+     font-size:65px;
+   }
+   .row h3{
+     margin:4px ;
+     font-size:35px;
+   }
+ }
